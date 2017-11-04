@@ -1,0 +1,2 @@
+# killcog
+RSA KILLCOG

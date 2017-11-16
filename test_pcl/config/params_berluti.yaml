@@ -1,31 +1,37 @@
 !!python/object/new:dynamic_reconfigure.encoding.Config
 dictitems:
-  convex_hull_apha: 0.005
-  distance_plane_threshold: 0.01
+  convex_hull_apha: 0.01
+  distance_plane_threshold: 0.003
   groups: !!python/object/new:dynamic_reconfigure.encoding.Config
     dictitems:
-      convex_hull_apha: 0.005
-      distance_plane_threshold: 0.01
+      convex_hull_apha: 0.01
+      distance_plane_threshold: 0.003
       groups: !!python/object/new:dynamic_reconfigure.encoding.Config
         state: []
+      height_of_tracers_z: 4.0
       id: 0
+      length_of_tracers_x: 0.004900000000000001
       name: Default
       parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
         state: []
       parent: 0
       state: true
       type: ''
-      x_max: 0.12
+      width_of_tracers_y: 0.032
+      x_max: 0.16
       x_min: -0.16
-      y_max: 0.1
+      y_max: 0.09
       y_min: -0.1
       z_max: 0.5
-      z_min: 0.259
+      z_min: 0.25
     state: []
-  x_max: 0.12
+  height_of_tracers_z: 4.0
+  length_of_tracers_x: 0.004900000000000001
+  width_of_tracers_y: 0.032
+  x_max: 0.16
   x_min: -0.16
-  y_max: 0.1
+  y_max: 0.09
   y_min: -0.1
   z_max: 0.5
-  z_min: 0.259
+  z_min: 0.25
 state: []
